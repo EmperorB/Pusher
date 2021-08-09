@@ -9,7 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     @State var payload: String = ""
-    //{"aps":{"alert":"hi some message","badge":42}}
+    /*
+     { "aps":
+        {
+            "alert":"hi some message",
+            "badge":42
+        }
+     }
+     */
     @State var apnsToken: String = ""
     @State var fileUrl: URL? = nil
     @State var topicId: String = ""
