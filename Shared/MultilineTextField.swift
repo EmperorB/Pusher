@@ -57,6 +57,7 @@ struct TextArea: NSViewRepresentable {
             textView.frame = CGRect(x: 0, y: 0, width: contentSize.width, height: contentSize.height)
             textView.autoresizingMask = [.width]
             textView.textColor = .white
+            textView.isRichText = false
             
             textView.delegate = self
 

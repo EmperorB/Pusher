@@ -42,6 +42,7 @@ struct ContentView: View {
                         SecureField("Certificate Password", text: $password)
                             .font(.body)
                     }
+                    .padding(.trailing, 8)
                     .frame(width: 200, height: nil, alignment: .center)
                 }
                 
